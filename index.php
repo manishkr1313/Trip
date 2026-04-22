@@ -72,8 +72,8 @@ if(isset($_POST['name'])){
     <div class="row justify-content-center">
       <div class="col-md-6 form-box text-center">
 
-        <h3>Welcome to IIT Kharagpur US Trip Form</h3>
-        <p>Enter your details and submit this form</p>
+        <h3 style="color: black;">Welcome to IIT Kharagpur US Trip Form</h3>
+        <p style="color: black;">Enter your details and submit this form</p>
 
         <!-- Success Message -->
         <?php
@@ -109,6 +109,8 @@ if(isset($_POST['name'])){
           </div>
 
           <button type="submit" class="btn btn-primary w-100">Submit</button>
+
+          <button type="reset" class="btn btn-secondary w-100 mt-2">Reset</button>
 
         </form>
 
